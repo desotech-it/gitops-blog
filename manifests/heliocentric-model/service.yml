@@ -7,7 +7,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-    NodePort: 32223
+    nodePort: 32223
   selector:
     app: heliocentric-model
   type: NodePort
