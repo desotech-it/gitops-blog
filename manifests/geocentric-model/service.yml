@@ -7,7 +7,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-    NodePort: 31001
+    NodePort: 32222
   selector:
     app: geocentric-model
   type: NodePort
