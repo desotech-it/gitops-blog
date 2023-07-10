@@ -9,9 +9,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ItsGaet/BlogArgoCD.git
-    targetRevision: main
-    path: ./Repository/manifests/geocentric-model
+    repoURL: https://github.com/desotech-it/gitops-blog
+    targetRevision: master
+    path: ./manifests/geocentric-model
    
   destination:
     server: https://kubernetes.default.svc
