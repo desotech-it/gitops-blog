@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ItsGaet/BlogArgoCD
-    targetRevision: main
-    path: ./Repository/app-of-apps
+    repoURL: https://github.com/desotech-it/gitops-blog
+    targetRevision: master
+    path: ./app-of-apps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
