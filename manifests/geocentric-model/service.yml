@@ -4,10 +4,10 @@ metadata:
   name: geocentric-model-svc
 spec:
   ports:
-  - port: 32222
+  - port: 80
     protocol: TCP
     targetPort: 80
-    NodePort: 32222
+    NodePort: 310123
   selector:
     app: geocentric-model
   type: NodePort
